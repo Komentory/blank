@@ -3,9 +3,9 @@
 	"version": "1.0.0",
 	"description": "",
 	"scripts": {
-		"start": "vite --host",
-		"build": "vite build --assetsDir .",
-		"serve": "npm run build && vite serve --host"
+		"start": "npx vite --host",
+		"build": "npx vite build --assetsDir .",
+		"serve": "npm run build && npx vite serve --host"
 	},
 	"repository": {
 		"type": "git",
@@ -17,9 +17,7 @@
 		"@tailwindcss/typography": "^0.4.1",
 		"autoprefixer": "^10.3.2",
 		"postcss": "^8.3.6",
-		"tailwindcss": "^2.2.7"
-	},
-	"devDependencies": {
+		"tailwindcss": "^2.2.7",
 		"vite": "^2.5.0",
 		"vite-plugin-fonts": "^0.2.2"
 	}
