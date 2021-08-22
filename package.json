@@ -4,7 +4,7 @@
 	"description": "",
 	"scripts": {
 		"start": "vite --host",
-		"build": "vite build",
+		"build": "vite build --assetsDir .",
 		"serve": "npm run build && vite serve --host"
 	},
 	"repository": {
@@ -13,11 +13,13 @@
 	},
 	"author": "Vic Shóstak",
 	"license": "Apache-2.0",
-	"devDependencies": {
+	"dependencies": {
 		"@tailwindcss/typography": "^0.4.1",
 		"autoprefixer": "^10.3.2",
 		"postcss": "^8.3.6",
-		"tailwindcss": "^2.2.7",
+		"tailwindcss": "^2.2.7"
+	},
+	"devDependencies": {
 		"vite": "^2.5.0",
 		"vite-plugin-fonts": "^0.2.2"
 	}
