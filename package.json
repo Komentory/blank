@@ -1,24 +1,24 @@
 {
-	"name": "blank-komentory",
-	"version": "1.0.0",
-	"description": "",
-	"scripts": {
-		"start": "npx vite --host",
-		"build": "npx vite build --assetsDir .",
-		"serve": "npm run build && npx vite serve --host"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/Komentory/blank.git"
-	},
-	"author": "Vic Shóstak",
-	"license": "Apache-2.0",
-	"dependencies": {
-		"@tailwindcss/typography": "^0.4.1",
-		"autoprefixer": "^10.3.2",
-		"postcss": "^8.3.6",
-		"tailwindcss": "^2.2.7",
-		"vite": "^2.5.0",
-		"vite-plugin-fonts": "^0.2.2"
-	}
+  "name": "blank-komentory",
+  "version": "1.0.0",
+  "description": "A simple blank web page powered by Tailwind CSS and Vite for the Komentory project.",
+  "scripts": {
+    "start": "npx vite --host",
+    "build": "npx vite build --assetsDir .",
+    "update": "npm update && npm install && npm outdated",
+    "serve": "npm run build && npx vite serve --host"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Komentory/blank.git"
+  },
+  "author": "Vic Shóstak",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@tailwindcss/typography": "^0.4.1",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19",
+    "vite": "^2.6.13"
+  }
 }
